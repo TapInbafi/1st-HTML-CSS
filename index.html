@@ -1,39 +1,1020 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href= "style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"> </script>
 
 </head>
-
 <body>
 
-<video autoplay muted loop id="bg-video">
-<source src="bg4.mp4" type="video/mp4">
-</video>
-   
+    <section class="bg-[#111827] h-[900px]">
+        
+        <section class="bg-[#0b1120] h-[100px] w-[vw] fixed top-0 left-0 w-full rounded-[20px] z-[100]">
+
+            <h1 class="pl-[100px] pt-[10px] font-mono text-[50px] text-[#f1f5f9] hover:text-gray-500"> 
+                Our Portfolio 
+            </h1>
+            
+            <nav class="flex gap-10 absolute top-[35px] right-[200px]  ">
+                <a href="#prince" class="bg-[#6366f1]  rounded py-1 px-4 hover:bg-[#3b82f6] font-mono"> 👨🏻‍💼 Prince Ivan Gonzales</a>
+                <a href="#alvin" class="bg-[#6366f1] rounded hover:bg-[#3b82f6] py-1 px-4 font-mono"> 👨🏻‍💼 Alvin Pangilinan</a>
+                <a href="#benjamin" class="bg-[#6366f1] rounded hover:bg-[#3b82f6] py-1 px-4 font-mono"> 👨🏻‍💼 Benjamin Sibal</a>
+                <a href="#jennymae" class="bg-[#6366f1] rounded hover:bg-[#3b82f6] py-1 px-4 font-mono"> 👩🏻‍💼 Jennymae Aquino</a>
+
+            </nav>
+
+        </section>
+    
+    
+
+
+        <section id="prince" class="flex justify-center">
+    
+            <video autoplay muted loop src="Prince_img/princebg1.mp4" class="h-[300px] w-full mx-[50px] mt-[150px] rounded-full object-cover block"></video>
+            
+            <img src="Prince_img/princepic.JPG" class="absolute top-[400px] left-[250px] rounded-full w-[300px] h-[300px] shadow-2xl">
+            
+            <h2 class="absolute top-[525px] left-[575px] font-mono text-white text-7xl">Prince Ivan Gonzales</h2>
+            
+            <h3 class="absolute top-[625px] left-[700px] font-mono text-3xl text-white">Hello World</h3>
+            
+            <div class="absolute top-[800px] left-[750px] w-[300px] pl-[125px] flex justify-center gap-[50px]">
+                <a href="#princeAbMe" class="text-white text-[25px] font-mono underline hover:text-slate-700">AboutMe</a>
+                <a href="#princeTechSkills" class="text-white text-[25px] font-mono underline hover:text-slate-700">Skills</a>
+                <a href="#princeProj" class="text-white text-[25px] font-mono underline hover:text-slate-700">Projects</a>
+                <a href="#princeCont" class="text-white text-[25px] font-mono underline hover:text-slate-700">Contact</a>
+            </div>
+
+        </section>
+
+    </section>
+
+    
+    <section id="princeAbMe" class="bg-[#1E293B] h-[700px] p-10"> 
+        
+        <div class="bg-white/10 backdrop-blur-md border border-white rounded-xl p-6 mt-16 ml-20 w-[800px]">
+        
+            <h3 class="text-white text-4xl font-bold">About Me</h2>
+        
+            <p class="text-white mt-3 ">
+            Hi, Im Prince Ivan A. Gonzales, a first-year college student with a fascination for the tech industry. 
+            Growing up, It never camed to my mind that Id study tech, although i had minimal interest for it, I didnt dwell to learn it.
+            But one day, I've visited my uncle and cousin who worked in the industry, and it sparked my interest.
+            Since then, Ive studied on my own, learning the fundamentals of Python, where i created a library that 
+            contains a working caluculator, AI querry, and crypto checker which are integrated through an API. I've also learned 
+            basic fundamentals of hardware programming through c++. 
+            And right now I'm learning on markup languages such as HTML, CSS, and Tailwind CSS. 
+            </p>
+            <p class="text-white mt-3">
+            Right now, my biggest dream is to create a legacy in this industry. 
+            I want to build projects that leave a lasting mark. In the field of game dev, 
+            I would want to create a game where players can explore, build, and interact in a virtual world that mirrors real-life activities
+            and social experiences. As for the field of web dev, i want to develop a platform that lets anyone create
+            their own movies through AI prompts. And as for the field of hardware development, 
+            I want to expand and explore the game field in virtual realities. At the end of the day, I just want to keep learning, 
+            building new things, and seeing how far my ideas can go through technology.</p>
+            </p>
+        </div>
+        
+        <div class="  bg-white/10 backdrop-blur-md border border-white rounded-xl p-6 ml-[1000px] mt-[-400px] w-[800px]">
+            <h3 class="  text-white text-4xl font-bold">My Hobbies</h2>
+            <ul class="text-slate-200 mt-3 text-[20px] leading-relaxed">
+                <li> Watching Movies, Series, Animes</li>    <li>Playing Valorant</li>  <li>Cycling </li>  <li> Coding</li>   
+            </ul>   
+        </div>
+                
+        <audio controls src="Prince_img/princevoice.mp3" type="audio/mpeg" class="mt-[50px] ml-[1005px] w-[500px]"></audio>
+        
+
+
+        </div>
+    
+    </section>
+
+
+    <section class="p-10 bg-[#273449] h-[450px] ">
+        <h2 class="text-[35px] text-left font-mono text-white"> Educational Background </h2> 
+        <table class="w-[1250px] border border-slate-400 ml-[300px] mt-[40px]">
+        
+
+            <thead class="bg-[#0b1120]">
+                <tr>
+                    <th class=" border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    LEVEL
+                    </th>
+                    <th class="border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    SCHOOL
+                    </th>
+                    <th class=" border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    YEAR GRADUATED
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody class="bg-[#273449] text-[#CBD5F5]">
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Elementary</td>
+                    <td class="font-mono px-4 py-2">Saint Bernice School Incorporated</td>
+                    <td class="font-mono px-4 py-2">2019</td>
+                </tr>
+                
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Highschool</td>
+                    <td class="font-mono px-4 py-2">Saint Bernice School Incorporated</td>
+                    <td class="font-mono px-4 py-2">2023</td>
+                </tr>
+                
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Senior Highschool</td>
+                    <td class="font-mono px-4 py-2">BloomingFields Academy Foundation Incorporated</td>
+                    <td class="font-mono px-4 py-2">2025</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
 
 
 
 
-<a href="1stpage.html" >
-<button type="button" class="bar1"> <p style=" color: black; font-size: 25px; font-family: 'Pacifico', cursive; margin: 5px; text-align: center;"> 
-    Research Paper</p></button>
-</a>
-<a href="FinalCC102.html" >
-<button type="button" class="bar2"> <p style=" color: black; font-size: 25px; font-family: 'Pacifico', cursive; margin: 5px; text-align: center;"> 
-    About Me</p></button>
-</a>
- <a href="FinalCC102.html" >
-<button type="button" class="bar3"> <p style=" color: black; font-size: 25px; font-family: 'Pacifico', cursive; margin: 5px; text-align: center;"> 
-    Blank</p></button>
-</a>
+    <section id="princeTechSkills" class="p-10 bg-[#334155] h-[1000px]" >
+        
+        <h2 class="text-center font-mono text-[100px] text-white mt-[-25px] mb-[50px]"> My Tech Skills </h3>
+        
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl pt-[25px] pb-[25px] ">
+        
+            <ol class=" text-left text-[25px] text-white font-mono pt-[] pl-[25px]">
+                <li> Python </li> <li> C++ </li> <li> HTML </li> <li> CSS </li> <li> Tailwind CSS </li>
+            </ol>
+        </div>
+        
+        <div class=" ml-[400px] w-[1000px] mt-[-200px]  ">
+            <marquee scrollamount="18">
+                <img src="logoimg/pythonlogo1.png" class="w-[100px] h-[150px] inline-block mx-2">
+                <img src="logoimg/c++logo1.png" class="w-[150px] h-[100px] inline-block mx-2">
+                <img src="logoimg/htmllogo.png" class="w-[150px] h-[100px] inline-block mx-2">
+                <img src="logoimg/csslogo.png" class="w-[150px] h-[100px] inline-block mx-2">
+                <img src="logoimg/tailscsslogo.png" class="w-[150px] h-[100px] inline-block mx-2">
+            </marquee>
+        </div>
 
- <a href="FinalCC102.html" >
-<button type="button" class="bar4"> <p style=" color: black; font-size: 25px; font-family: 'Pacifico', cursive; margin: 5px; text-align: center;"> 
-    OK</p></button>
-</a>
+
+
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/Y9Zw6xOGly0?si=6nVA2w7MJGhTfymZ" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded-2xl mt-[150px] ml-[600px]">
+        </iframe>
+
+
+    </section>
+
+
+    <section id="princeProj" class=" bg-[#475569] p-10 h-[900px]">
+
+        <h3 class="text-center text-[75px] text-white font-mono"> 
+            My Projects
+        </h3>
+
+        <div class=" flex justify-center gap-[100px] mt-[75px]">
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                <a href="https://tapinbafi.github.io/1st-HTML-CSS/"  target="_blank" >
+                    <img src="Prince_img/proj1prince1.png" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[20px] p-[20px]"> This is my first webpage, and it shows one of the proudest milestones in my programming journey. 
+                        I eagerly uploaded it to my GitHub and created a repository to show my work to others.
+                    </p>
+                </a> 
+            </article>
+    
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                <a href="https://docs.google.com/document/d/1ZDrvtRSZTc_6ZBY6bjMeYtW_sR4KFONjKtCtCT06Ovc/edit?tab=t.0"  target="_blank" >
+                    <img src="Prince_img/proj2prince.png" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[19px] p-[20px]"> While this may not be directly tech-related, completing my research paper was one of the most challenging experiences I’ve faced,
+                        and I felt a deep sense of pride in seeing my work come together successfully. 
+                    </p>
+                </a> 
+            </article>
+
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                <a href="https://docs.google.com/document/d/1ZMqS5s0CplqEJaxNHYQT--wnbvt-UdbFoon_kvdjEsc/edit?usp=drivesdk"  target="_blank" >
+                    <img src="Prince_img/proj3prince.png" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[22px] p-[20px]"> This may aslo not be directly tech related, but it is the best piece of academic writing I have created,
+                        and Im very proud of the work. 
+                    </p>
+                </a> 
+
+            </article>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="princeCont" class=" bg-[#1E293B] p-10 h-[850px]">
+
+        <div class=" bg-slate-400 w-[1500px] h-[650px] mt-[50px] mx-auto rounded-xl">
+
+            <h2 class="text-white font-mono text-[50px] text-left pl-[50px] pt-[25px] "> Contact Me </h2>
+
+
+            <div class="flex justify-center bg-slate-300 w-[750px] h-[500px] mt-[10px] mx-[40px] rounded-xl">
+                <form>
+                    <div class="my-[25px] ">
+                    <input class="bg-slate-400 w-[650px] h-[50px] rounded-full  placeholder-white pl-[20px] text-white text-[20px]" type="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <textarea class="bg-slate-400 w-[650px] h-[300px] rounded-xl pl-5 pt-3 text-white placeholder-white text-[20px]" placeholder="Message"></textarea>
+                    </div>
+                    <div class="py-[15px] flex justify-center">
+                    <button class="bg-slate-400 w-[250px] h-[50px] rounded-xl pl-5 pt-3 text-white pb-[10px] pl-[0px] "> Submit</button>
+                    </div>
+
+                </form>
+
+
+            </div> 
+        </div>
+
+
+        <div class="bg-slate-300 w-[605px] h-[500px] mt-[-540px] ml-[1000px] rounded-xl  border border-gray-100 ">
+
+            <a href="https://maps.app.goo.gl/6Jj45oQ6k2y1YkJZ8" target="_blank"><img src="logoimg/googlemapslogo.webp" class="rounded-xl hover:bg-slate-400 pb-[155px]"></a>
+        </div>
+
+
+    </section>
+
+    <section class="bg-[#111827] h-[200px] flex justify-center items-center">
+        <footer class="text-white font-mono">
+
+            <div class="flex gap-6 items-center justify-center mb-4">
+                <a href="https://www.facebook.com/princeivan.gonzales" target="_blank"><img src="logoimg/fblogo2.png" class="w-[45px] h-[45px] rounded-md hover:bg-slate-400"></a>
+                <a href="https://www.instagram.com/princeivan.gonzales/" target="_blank"><img src="logoimg/iglogo.png"  class="w-[38px] h-[38px] rounded-md hover:bg-slate-400"></a>
+                <a href="https://github.com/TapInbafi" target="_blank"><img src="logoimg/github-icon-1-logo.png" class="w-[45px] h-[45px] brightness-200 rounded-md hover:bg-slate-400"></a>
+            </div>
+
+            <h4>
+                © 2026 Prince Ivan Gonzales. All rights reserved.
+            </h4>
+
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="relative bg-[#2E1065] p-10 h-[900px]">
+                
+        
+        <section id="alvin" class="flex justify-center">
+             
+            <video autoplay muted loop src="Alvin_img/alvinbg1.mp4" class="h-[300px] w-full mx-[50px] mt-[100px] rounded-full object-cover block"></video>
+            
+            <img src="Alvin_img/alvinimg.jpg" class="absolute top-[400px] left-[250px] rounded-full w-[300px] h-[300px] shadow-2xl">
+            
+            <h2 class="absolute top-[525px] left-[575px] font-mono text-white text-7xl">Alvin Pangilinan</h2>
+            
+            <h3 class="absolute top-[625px] left-[700px] font-mono text-3xl text-white">XAF ＺＩＮＧ#Kap</h3>
+            
+            <div class="absolute top-[800px] left-[750px] w-[300px] pl-[125px] flex justify-center gap-[50px]">
+                <a href="#alvinAbMe" class="text-white text-[25px] font-mono underline hover:text-slate-700">AboutMe</a>
+                <a href="#alvinTechSkills" class="text-white text-[25px] font-mono underline hover:text-slate-700">Skills</a>
+                <a href="#alvinProj" class="text-white text-[25px] font-mono underline hover:text-slate-700">Projects</a>
+                <a href="#alvinCont" class="text-white text-[25px] font-mono underline hover:text-slate-700">Contact</a>
+            </div>
+            
+        </section>
+
+    </section>
+
+
+    <section id="alvinAbMe" class="bg-[#4C1D95] h-[600px] p-10"> 
+        
+        <div class="bg-white/10 backdrop-blur-md border border-white rounded-xl p-6 mt-16 ml-20 w-[700px]">
+
+            
+            <h3 class="text-white text-4xl font-bold">About Me</h2>
+        
+            <p class="text-white mt-3 ">
+                Hi, I’m Alvin Pangilinan, a first-year college student with a strong interest in technology and digital creation.
+                I enjoy exploring how software and design come together to build useful and creative tools.
+                My current skills include HTML, JavaScript, and Java.  
+                I’m also familiar with Adobe Photoshop, where I design graphics and visual assets for creative work. 
+                I enjoy learning new technologies, improving my coding skills, and turning ideas into small functional projects.
+            </p>
+            <p class="text-white mt-3">
+                Beyond coding, I’m someone who values creativity, problem-solving, and continuous learning.
+                I’m always curious about how technology works and how it can be used to build meaningful digital experiences. 
+                My goal is to keep developing my skills, collaborate with others, 
+                and contribute to projects that make technology more engaging and accessible.
+            </p>
+        </div>
+        
+        <div class="  bg-white/10 backdrop-blur-md border border-white rounded-xl p-6 ml-[1000px] mt-[-340px] w-[800px]">
+            <h3 class="  text-white text-4xl font-bold">My Hobbies</h2>
+            <ul class="text-slate-200 mt-3 text-[20px] leading-relaxed">
+                <li> Watching Marvel Movies, Animes</li> <li>Playing League of Legends, Wildrift, Touch</li>  <li>Cycling </li>  <li> Coding</li>   
+            </ul>   
+        </div>
+        
+        <audio controls src="Alvin_img/alvinvoice.mp3" type="audio/mpeg" class="mt-[50px] ml-[1005px] w-[500px] hover:bg-slate-300"></audio>
+        
+    
+    </section>
+
+
+    <section class="p-10 bg-[#581C87] h-[450px] ">
+    
+        <h2 class="text-[35px] text-left font-mono text-white"> Educational Background </h2> 
+        
+        <table class="w-[1250px] border border-slate-400 ml-[300px] mt-[40px]">
+            <thead class="bg-[#0b1120]">
+                <tr>
+                    <th class=" border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    LEVEL
+                    </th>
+                    <th class="border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    SCHOOL
+                    </th>
+                    <th class=" border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    YEAR GRADUATED
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody class="bg-[#273449] text-[#CBD5F5]">
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Elementary</td>
+                    <td class="font-mono px-4 py-2">Gasdam Elementary School</td>
+                    <td class="font-mono px-4 py-2">2014</td>
+                </tr>
+                
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Highschool</td>
+                    <td class="font-mono px-4 py-2">Santos Ventura National Highschool</td>
+                    <td class="font-mono px-4 py-2">2018</td>
+                </tr>
+                
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Senior Highschool</td>
+                    <td class="font-mono px-4 py-2">Santos Ventura National Highschool</td>
+                    <td class="font-mono px-4 py-2">2020</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+
+
+
+    <section id="alvinTechSkills" class="p-10 bg-[#5B21B6] h-[1000px]" >
+        
+        <h2 class="text-center font-mono text-[100px] text-white mt-[px] mb-[25px]"> My Tech Skills </h2>
+        
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl pt-[25px] pb-[25px] ">
+        
+            <ol class=" text-left text-[25px] text-white font-mono pt-[] pl-[25px]">
+                <li> Java </li>  <li> JavaScript </li> <li> HTML </li>  <li> Adobe Photoshop </li> 
+            </ol>
+        </div>
+        
+        <div class=" ml-[400px] w-[1000px] mt-[-150px]  ">
+            <marquee scrollamount="18">
+                <img src="logoimg/javalogo.png" class="w-[200px] h-[150px] pb-[25px] inline-block mx-2">
+                <img src="logoimg/jslogo.png" class="w-[150px] h-[100px] inline-block mx-2">
+                <img src="logoimg/htmllogo.png" class="w-[200px] h-[150px] inline-block mx-2">
+                <img src="logoimg/adobelogo.png" class="w-[150px] h-[100px] inline-block mx-2">
+            </marquee>
+        </div>
+
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pzt6SmvGpXk?si=1-vdfC_Ftg18ZQ5c&amp;start=13"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+        class="rounded-2xl mt-[150px] ml-[600px]"> </iframe>
+
+
+    </section>
+
+
+    <section id="alvinProj" class=" bg-[#6B21A8] p-10 h-[900px]">
+
+        <h3 class="text-center text-[75px] text-white font-mono"> 
+            My Projects
+        </h3>
+
+        <div class=" flex justify-center gap-[100px] mt-[75px]">
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                
+                    <img src="Alvin_img/alvinproj1.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[20px] p-[17px]"> I created this student journalism newspaper as a project, 
+                        putting together research, writing, and layout design. It was a hands on way to bring stories 
+                        to life and explore how news can be shared in a modern, digital format.
+
+                    </p>
+                </a> 
+            </article>
+    
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                    <img src="Alvin_img/alvinproj2.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[19px] p-[20px]"> Another project for Journalism, we were tasked to interview people, 
+                        so we spoke with members of the Atea community to include their perspectives and stories.
+                    </p>
+                </a> 
+            </article>
+
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+
+                    <img src="Alvin_img/alvinproj3.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[22px] p-[20px]"> As part of our CC101 project, I created a simple traffic light prototype in Tinkercad,
+                        focusing mainly on the wiring and connections. 
+                    </p>
+                </a> 
+
+            </article>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="alvinCont" class=" bg-[#5B21B6] p-10 h-[850px]">
+
+        <div class=" bg-slate-400 w-[1500px] h-[650px] mt-[50px] mx-auto rounded-xl">
+
+            <h2 class="text-white font-mono text-[50px] text-left pl-[50px] pt-[25px] "> Contact Me </h2>
+
+
+            <div class="flex justify-center bg-slate-300 w-[750px] h-[500px] mt-[10px] mx-[40px] rounded-xl">
+                <form>
+                    <div class="my-[25px] ">
+                    <input class="bg-slate-400 w-[650px] h-[50px] rounded-full  placeholder-white pl-[20px] text-white text-[20px]" type="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <textarea class="bg-slate-400 w-[650px] h-[300px] rounded-xl pl-5 pt-3 text-white placeholder-white text-[20px]" placeholder="Message"></textarea>
+                    </div>
+                    <div class="py-[15px] flex justify-center">
+                    <button class="bg-slate-400 w-[250px] h-[50px] rounded-xl pl-5 pt-3 text-white pb-[10px] pl-[0px] "> Submit</button>
+                    </div>
+
+                </form>
+
+
+            </div> 
+        </div>
+
+
+        <div class="bg-slate-300 w-[605px] h-[500px] mt-[-540px] ml-[1000px] rounded-xl  border border-gray-100 ">
+
+            <a href="https://maps.app.goo.gl/BL68gsmbbqrkiTuA9" target="_blank"><img src="logoimg/googlemapslogo.webp" class="rounded-xl hover:bg-slate-400 pb-[155px]"></a>
+        </div>
+
+
+
+    </section>
+
+    <section class="bg-[#1E0B3A] h-[200px] flex justify-center items-center">
+        <footer class="text-white font-mono">
+
+            <div class="flex gap-[50px] items-center justify-center mb-4">
+                <a href="https://www.youtube.com/@alvinpangilinan2430" target="_blank"><img src="logoimg/ytlogo.png" target="_blank" class="w-[45px] h-[45px] rounded-md hover:bg-slate-400"></a>
+                <a href="https://www.facebook.com/alvin.pangilinan.1848" target="_blank"><img src="logoimg/fblogo2.png"  class="w-[45px] h-[45px] rounded-md hover:bg-slate-400"></a>
+                <a href="https://www.tiktok.com/@enemiesz2?_r=1&_t=ZS-94eZlvjLEdM" target="_blank"><img src="logoimg/tiktoklogo.webp" target="_blank" class="w-[45px] h-[45px] rounded-md hover:bg-slate-400"></a>
+                
+            </div>
+
+            <h4>
+                © 2026 Alvin Pangilinan. All rights reserved.
+            </h4>
+    </section>    
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="relative bg-[#4A0404] p-10 h-[900px]">
+                
+        
+        <section id="benjamin" class="flex justify-center">
+             
+            <video autoplay muted loop src="Benjamin_img/benjbg2.mp4" class="h-[300px] w-full mx-[50px] mt-[100px] rounded-full object-cover block"></video>
+            
+            <img src="Benjamin_img/benjaminimg.jpg" class="absolute top-[400px] left-[250px] rounded-full w-[300px] h-[300px] shadow-2xl">
+            
+            <h2 class="absolute top-[525px] left-[575px] font-mono text-white text-7xl">Benjamin Sibal</h2>
+            
+            <h3 class="absolute top-[625px] left-[700px] font-mono text-3xl text-white">God's Disciple</h3>
+            
+            <div class="absolute top-[800px] left-[750px] w-[300px] pl-[125px] flex justify-center gap-[50px]">
+                <a href="#BenjAbMe" class="text-white text-[25px] font-mono underline hover:text-slate-700">AboutMe</a>
+                <a href="#BenjTechSkills" class="text-white text-[25px] font-mono underline hover:text-slate-700">Skills</a>
+                <a href="#BenjProj" class="text-white text-[25px] font-mono underline hover:text-slate-700">Projects</a>
+                <a href="#BenjCont" class="text-white text-[25px] font-mono underline hover:text-slate-700">Contact</a>
+            </div>
+            
+        </section>
+
+    </section>
+
+
+    <section id="BenjAbMe" class="bg-[#7A0C0C] h-[600px] p-10"> 
+        
+        <div class="bg-white/10 backdrop-blur-md border border-white rounded-xl p-6 mt-16 ml-20 w-[800px]">
+        
+            <h3 class="text-white text-4xl font-bold">About Me</h2>
+        
+            <p class="text-white mt-3 ">
+                My name is Benjamin Sibal, and I’m a student with an interest in technology and digital tools.
+                I enjoy learning how different programs and platforms work and how they can be used to create useful and creative outputs.
+                Some of the skills I have include HTML, which I use to build simple web pages and understand how websites are structured.
+                I’m also familiar with Microsoft 365, where I create documents, presentations,
+                and spreadsheets for school projects and tasks. 
+                I also use Canva to design simple graphics, posters, and other visual content.
+            </p>
+            <p class="text-white mt-3">
+                Aside from these skills, I like improving my knowledge and trying new tools that can help me 
+                work better and be more creative. I’m always open to learning more about technology and design,
+                and I hope to keep developing my skills while working on projects that help me grow and gain experience.
+            </p>
+        </div>
+        
+        <div class="  bg-white/10 backdrop-blur-md border border-white rounded-xl p-6 ml-[1000px] mt-[-325px] w-[800px]">
+            <h3 class="  text-white text-4xl font-bold">My Hobbies</h2>
+            <ul class="text-slate-200 mt-3 text-[20px] leading-relaxed">
+                <li> Watching Movies, Animes</li> <li>Playing Mobile Legends</li>  <li>Hiking </li>  <li> Calisthenics </li>   
+            </ul>   
+        </div>
+        
+        <audio controls src="Benjamin_img/benjvoice.mp3" type="audio/mpeg" class="mt-[50px] ml-[1005px] w-[500px] hover:bg-slate-300"></audio>
+        
+    
+    </section>
+
+
+    <section class="p-10 bg-[#5C0A0A] h-[450px] ">
+        <h2 class="text-[35px] text-left font-mono text-white"> Educational Background </h2>  
+        <table class="w-[1250px] border border-slate-400/50 ml-[300px] mt-[40px]">
+        
+
+            <thead class="bg-[#0b1120]">
+                <tr>
+                    <th class=" border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    LEVEL
+                    </th>
+                    <th class="border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    SCHOOL
+                    </th>
+                    <th class=" border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    YEAR GRADUATED
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody class="bg-[#273449] text-[#CBD5F5]">
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Elementary</td>
+                    <td class="font-mono px-4 py-2">Malasa Integrated School</td>
+                    <td class="font-mono px-4 py-2">2018</td>
+                </tr>
+                
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Highschool</td>
+                    <td class="font-mono px-4 py-2">Mabalacat Technical Vocational School</td>
+                    <td class="font-mono px-4 py-2">2023</td>
+                </tr>
+                
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Senior Highschool</td>
+                    <td class="font-mono px-4 py-2">Dapdap Senior Highschool</td>
+                    <td class="font-mono px-4 py-2">2025</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+
+
+
+    <section id="BenjTechSkills" class="p-10 bg-[#8B0000] h-[1000px]" >
+        
+        <h2 class="text-center font-mono text-[100px] text-white mt-[px] mb-[25px]"> My Tech Skills </h3>
+        
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl pt-[25px] pb-[25px] ">
+        
+            <ol class=" text-left text-[25px] text-white font-mono pt-[] pl-[25px]">
+                <li> HTML </li>  <li> Microsoft 365 </li> <li> Canva </li> 
+            </ol>
+        </div>
+        
+        <div class=" ml-[400px] w-[1000px] mt-[-150px]  ">
+            <marquee scrollamount="18">
+                <img src="logoimg/htmllogo.png" class="w-[200px] h-[150px] pb-[25px] inline-block mx-2">
+                <img src="logoimg/m365logo.png" class="w-[150px] h-[100px] inline-block mx-2">
+                <img src="logoimg/canvalogo.png" class="w-[150px] h-[150px] inline-block mx-2 pb-[10px]">
+
+            </marquee>
+        </div>
+
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Iu0lME2bFsM?si=Q3QnJckDRwh0jh7b&amp;start=13" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen 
+    class="rounded-2xl mt-[150px] ml-[600px]">
+    </iframe>
+
+
+    </section>
+
+
+    <section id="BenjProj" class=" bg-[#750606] p-10 h-[900px]">
+
+        <h3 class="text-center text-[75px] text-white font-mono"> 
+            My Projects
+        </h3>
+
+        <div class=" flex justify-center gap-[100px] mt-[75px]">
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                
+                    <img src="Benjamin_img/benjproj1.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[20px] p-[20px]"> As part of our project, I was tasked with creating a dish, 
+                        and I’m proud of how it turned out. It was a practical experience that let me experiment with flavors and share something I made with others.
+                    </p>
+                </a> 
+            </article>
+    
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                    <img src="Benjamin_img/Benjproj2.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[19px] p-[20px]"> In this project, I created my first HTML webpage and added a little CSS to improve its appearance. I worked on structuring the page using basic HTML elements and applied simple CSS styles to make the layout cleaner and more visually appealing.
+                    </p>
+                </a> 
+            </article>
+
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                    <img src="Benjamin_img/benjproj3.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[22px] p-[20px]"> And in our CC101 project, I worked on the wiring for our traffic light system,
+                         making sure all the connections were correct and the lights functioned properly
+                    </p>
+                </a> 
+
+            </article>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="BenjCont" class=" bg-[#7A0C0C] p-10 h-[850px]">
+
+        <div class=" bg-slate-400 w-[1500px] h-[650px] mt-[50px] mx-auto rounded-xl">
+
+            <h2 class="text-white font-mono text-[50px] text-left pl-[50px] pt-[25px] "> Contact Me </h2>
+
+
+            <div class="flex justify-center bg-slate-300 w-[750px] h-[500px] mt-[10px] mx-[40px] rounded-xl">
+                <form>
+                    <div class="my-[25px] ">
+                    <input class="bg-slate-400 w-[650px] h-[50px] rounded-full  placeholder-white pl-[20px] text-white text-[20px]" type="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <textarea class="bg-slate-400 w-[650px] h-[300px] rounded-xl pl-5 pt-3 text-white placeholder-white text-[20px]" placeholder="Message"></textarea>
+                    </div>
+                    <div class="py-[15px] flex justify-center">
+                    <button class="bg-slate-400 w-[250px] h-[50px] rounded-xl pl-5 pt-3 text-white pb-[10px] pl-[0px] "> Submit</button>
+                    </div>
+
+                </form>
+
+
+            </div> 
+        </div>
+
+
+        <div class="bg-slate-300 w-[605px] h-[500px] mt-[-540px] ml-[1000px] rounded-xl  border border-gray-100 ">
+
+            <a href="https://maps.app.goo.gl/Cm3U5J6DtT7ozCmSA" target="_blank"><img src="logoimg/googlemapslogo.webp" class="rounded-xl hover:bg-slate-400 pb-[155px]"></a>
+        </div>
+
+
+
+
+    </section>
+
+    <section class="bg-[#220000] h-[200px] flex justify-center items-center">
+        <footer class="text-white font-mono">
+
+            <div class="flex gap-[50px] items-center justify-center mb-4">
+                <a href="https://www.facebook.com/profile.php?id=61584179481725" target="_blank"><img src="logoimg/fblogo2.png" class="w-[45px] h-[45px] rounded-md hover:bg-slate-400"></a>
+                
+                <a href="https://www.tiktok.com/@benjisibal" target="_blank"><img src="logoimg/tiktoklogo.webp"  class="w-[45px] h-[45px] rounded-md hover:bg-slate-400"></a>
+            </div>
+
+            <h4>
+                © Benjamin Sibal. All rights reserved.
+            </h4>
+
+        </footer>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="relative bg-[#2A0F1F] p-10 h-[900px]">
+                
+        
+        <section id="jennymae" class="flex justify-center">
+             
+            <video autoplay muted loop src="Jennymae_img/jennymaebg1.mp4" class="h-[300px] w-full mx-[50px] mt-[100px] rounded-full object-cover block"></video>
+            
+            <img src="Jennymae_img/jennymaeimg.jpg" class="absolute top-[400px] left-[250px] rounded-full w-[300px] h-[300px] shadow-2xl">
+            
+            <h2 class="absolute top-[525px] left-[575px] font-mono text-white text-7xl">Jennymae Aquino</h2>
+            
+            <h3 class="absolute top-[625px] left-[700px] font-mono text-3xl text-white">Jenny_Pots</h3>
+            
+            <div class="absolute top-[800px] left-[750px] w-[300px] pl-[125px] flex justify-center gap-[50px]">
+                <a href="#JennymaeAbMe" class="text-white text-[25px] font-mono underline hover:text-slate-700">AboutMe</a>
+                <a href="#JennymaeTechSkills" class="text-white text-[25px] font-mono underline hover:text-slate-700">Skills</a>
+                <a href="#JennymaeProj" class="text-white text-[25px] font-mono underline hover:text-slate-700">Projects</a>
+                <a href="#JennymaeCont" class="text-white text-[25px] font-mono underline hover:text-slate-700">Contact</a>
+            </div>
+            
+        </section>
+
+    </section>
+
+
+    <section id="JennymaeAbMe" class="bg-[#1F0A18] h-[550px] p-10"> 
+        
+        <div class="bg-white/10 backdrop-blur-md border border-white rounded-xl p-6 mt-16 ml-20 w-[800px]">
+        
+            <h3 class="text-white text-4xl font-bold">About Me</h2>
+        
+            <p class="text-white mt-3 ">
+                I’m Jennymae Aquino, and I enjoy combining creativity with technology in the projects I work on. 
+                I use Canva to design visuals and Microsoft 365 to organize documents, presentations, and spreadsheets,
+                making sure everything is clear and well put together. I like exploring new tools and finding ways to make 
+                my work more interesting and effective.
+            </p>
+            <p class="text-white mt-3">
+                I enjoy taking on projects that challenge me and give me the chance to learn, 
+                improve, and create something I’m proud of. Each project is an opportunity to 
+                try new ideas and see how technology can help bring them to life.
+            </p>
+        </div>
+        
+        <div class="  bg-white/10 backdrop-blur-md border border-white rounded-xl p-6 ml-[1000px] mt-[-285px] w-[800px]">
+            <h3 class="  text-white text-4xl font-bold">My Hobbies</h2>
+            <ul class="text-slate-200 mt-3 text-[20px] leading-relaxed">
+                <li> Playing Badminton</li> <li>Massaging</li>  <li>Watching TikTok</li>  <li> Riding Motorcycle </li>   
+            </ul>   
+        </div>
+        
+        <audio controls src="Jennymae_img/jennymaevoice.mp3" type="audio/mpeg" class="mt-[50px] ml-[1005px] w-[500px] hover:bg-slate-300"></audio>
+        
+    
+    </section>
+
+
+    <section class="p-10 bg-[#3A0F2B] h-[450px] ">
+        <h2 class="text-[35px] text-left font-mono text-white"> Educational Background </h2> 
+        <table class="w-[1250px] border border-slate-400/50 ml-[300px] mt-[40px]">
+        
+
+            <thead class="bg-[#0b1120]">
+                <tr>
+                    <th class=" border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    LEVEL
+                    </th>
+                    <th class="border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    SCHOOL
+                    </th>
+                    <th class=" border-slate-400/50 text-left text-[#F1F5F9] font-mono text-[20px] px-4 py-2">
+                    YEAR GRADUATED
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody class="bg-[#273449] text-[#CBD5F5]">
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Elementary</td>
+                    <td class="font-mono px-4 py-2">Gabaldon Elementary School</td>
+                    <td class="font-mono px-4 py-2">2019</td>
+                </tr>
+                
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Highschool</td>
+                    <td class="font-mono px-4 py-2">San Roque National Highschool</td>
+                    <td class="font-mono px-4 py-2">2023</td>
+                </tr>
+                
+                <tr class="border-b border-slate-400/30">
+                    <td class="font-mono px-4 py-2">Senior Highschool</td>
+                    <td class="font-mono px-4 py-2">San Roque National Highschool</td>
+                    <td class="font-mono px-4 py-2">2025</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+
+
+
+    <section id="JennymaeTechSkills" class="p-10 bg-[#221026] h-[1000px]" >
+        
+        <h2 class="text-center font-mono text-[100px] text-white mt-[px] mb-[25px]"> My Tech Skills </h3>
+        
+        <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl pt-[25px] pb-[25px] ">
+        
+            <ol class=" text-left text-[25px] text-white font-mono pt-[] pl-[25px]">
+                <li> Microsoft 365 </li> <li> Canva </li> 
+            </ol>
+        </div>
+        
+        <div class=" ml-[400px] w-[1000px] mt-[-150px]  ">
+            <marquee scrollamount="18">
+                <img src="logoimg/m365logo.png" class="w-[150px] h-[100px] inline-block mx-2 pt-[25px]">
+                <img src="logoimg/canvalogo.png" class="w-[100px] h-[125px] inline-block pt-[50px] mx-2 ]">
+
+            </marquee>
+        </div>
+
+
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NqDKIWiH4_0?si=bC0c55KcvDNkFuBc" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+            class="rounded-2xl mt-[150px] ml-[600px]">
+        </iframe>
+
+
+    </section>
+
+
+    <section id="JennymaeProj" class=" bg-[#2D0B2E] p-10 h-[900px]">
+
+        <h3 class="text-center text-[75px] text-white font-mono"> 
+            My Projects
+        </h3>
+
+        <div class=" flex justify-center gap-[100px] mt-[75px]">
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                
+                    <img src="Jennymae_img/jennymaeproj1.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[20px] p-[20px]"> In this project, our class placed 2nd in a Cheerdance competition. 
+                        It was an exciting experience that showcased our teamwork, energy, and dedication.
+                    </p>
+                </a> 
+            </article>
+    
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                
+                    <img src="Jennymae_img/jennymaeproj2.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[20px] p-[20px]"> Next is when I worked on a creative nonfiction piece. 
+                        It was a chance to explore personal stories and share them in a simple, and emotional way.
+                    </p>
+                </a> 
+            </article>
+
+            <article class= "bg-white/10 backdrop-blur-md border border-white/20 rounded-xl w-[500px] h-[550px] ">
+                
+                    <img src="Jennymae_img/jennymaeproj3.jpg" class="inline-block p-2 hover:bg-slate-400 rounded-xl w-[500px] h-[350px] border border-slate-400" >   
+                    <p class="text-white font-mono text-[22px] p-[20px]"> And lastly is when I  became a host for a talk show project. 
+                        It was a great experience that helped me practice speaking confidently.
+                    </p>
+                </a> 
+
+            </article>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="JennymaeCont" class=" bg-[#3B0A1E] p-10 h-[850px]">
+
+        <div class=" bg-slate-400 w-[1500px] h-[650px] mt-[50px] mx-auto rounded-xl">
+
+            <h2 class="text-white font-mono text-[50px] text-left pl-[50px] pt-[25px] "> Contact Me </h2>
+
+
+            <div class="flex justify-center bg-slate-300 w-[750px] h-[500px] mt-[10px] mx-[40px] rounded-xl">
+                <form>
+                    <div class="my-[25px] ">
+                    <input class="bg-slate-400 w-[650px] h-[50px] rounded-full  placeholder-white pl-[20px] text-white text-[20px]" type="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <textarea class="bg-slate-400 w-[650px] h-[300px] rounded-xl pl-5 pt-3 text-white placeholder-white text-[20px]" placeholder="Message"></textarea>
+                    </div>
+                    <div class="py-[15px] flex justify-center">
+                    <button class="bg-slate-400 w-[250px] h-[50px] rounded-xl pl-5 pt-3 text-white pb-[10px] pl-[0px] "> Submit</button>
+                    </div>
+
+                </form>
+
+
+            </div> 
+        </div>
+
+
+        <div class="bg-slate-300 w-[605px] h-[500px] mt-[-540px] ml-[1000px] rounded-xl  border border-gray-100 ">
+
+            <a href="https://maps.app.goo.gl/gt2Fpxd6qwSZNNxX8" target="_blank"><img src="logoimg/googlemapslogo.webp" class="rounded-xl hover:bg-slate-400 pb-[155px]"></a>
+        </div>
+
+
+
+    </section>
+
+    <section class="bg-[#0A0A0A] h-[200px] flex justify-center items-center">
+        <footer class="text-white font-mono">
+
+            <div class="flex gap-[50px] items-center justify-center mb-4">
+                <a href="https://www.facebook.com/jennymae.aquino.775" target="_blank"><img src="logoimg/fblogo2.png"  class="w-[45px] h-[45px] rounded-md hover:bg-slate-400"></a>
+                
+                <a href="https://www.instagram.com/jenny_pot13/" target="_blank" ><img src="logoimg/iglogo.png" class="w-[45px] h-[45px] rounded-md hover:bg-slate-400"></a>
+            </div>
+
+            <h4>
+                © Jennymae Aquino. All rights reserved.
+            </h4>
+
+        </footer>
+    </section>
+
+
 </body>
-
-
-
 </html>
