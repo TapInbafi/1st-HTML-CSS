@@ -1,0 +1,37 @@
+.backg{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    object-fit: cover;
+    z-index: -1;
+    background-image: url(1st-bg-ai.png);
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0
+}
+
+
+.bar1  { 
+    width: 1000px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1px);          
+    border-radius: 100px;
+    position:absolute;
+    top: 300px;
+    left: 475px;
+    border-color: rgba(255, 255, 255, 0.2);;
+}
+
+.backbutton  { 
+    width: 100px;
+    height: 50px;
+    background: rgba(161, 155, 155, 0.2);
+    backdrop-filter: blur(1px);          
+    border-radius: 20px;
+    position:absolute;
+    top: 55px;
+    left:60px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
